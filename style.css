@@ -1,0 +1,45 @@
+.carousel-item{
+    background-color: aquamarine;
+    height: 580px;
+}
+
+.s-h1{
+    text-align: center;
+    background-color: blue;
+}
+
+.s-pera{
+    text-align: center;
+    background-color: aquamarine;
+    width: 500px;
+    margin: auto;
+}
+
+.card{
+    margin: 8px;
+    width: 240px !important;
+}
+
+.ball{
+    margin-top: 90px;
+}
+
+@media only screen and (max-width:1026px){
+    .carousel-item{
+        background-color: aquamarine;
+        height: 960px;
+    }
+}
+
+@media only screen and (max-width:514px){
+    .carousel-item{
+        background-color: aquamarine;
+        height: 1650px;
+    }
+}
+
+@media only screen and (max-width:505px){
+    .s-pera{
+        width: 200px;
+    }
+}
